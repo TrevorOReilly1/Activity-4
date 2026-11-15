@@ -34,7 +34,7 @@
 import { getAuth, signInWithEmailAndPassword, sendPasswordResetEmail } from "firebase/auth";
 import Navbar from '../components//Navbar.vue'
 import { useUserStore } from "../stores/user";
-const APP_URL = "http://localhost:5173"; // activity-4-sigma.vercel.app
+const APP_URL = activity-4-sigma.vercel.app
 export default {
     name: 'Login',
     components: {
